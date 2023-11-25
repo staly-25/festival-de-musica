@@ -1,0 +1,38 @@
+h1{
+    color: #000000;
+    font-style: italic;
+}
+
+body{
+    background: #ffffff;
+}
+
+h2{
+    color: #000000;
+}
+
+img{
+    max-width: 500px;
+    border-radius: 5%;
+}
+
+.imagem{
+    text-align: center;
+    
+}
+
+.logo{
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.logo:hover{
+    -webkit-filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+    filter: drop-shadow(15px 10px 5px rgba(0,0,0,.5));
+}
+
+.box{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
